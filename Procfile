@@ -1,1 +1,1 @@
-worker: python bunkerbot.py
+worker: python bot.py
