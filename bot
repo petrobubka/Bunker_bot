@@ -1,14 +1,14 @@
 import random
 import telebot
 import requests
-import time
-import config
+
+
 from telebot import types
 
 requests.packages.urllib3.util.ssl_.DEFAULT_CIPHERS = "TLS13-CHACHA20-POLY1305-SHA256:TLS13-AES-128-GCM-SHA256:TLS13" \
                                                       "-AES-256-GCM-SHA384:ECDHE:!COMPLEMENTOFDEFAULT "
 
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot('1473850435:AAEOSlGS0fsyn2fzCtlEOGh3mvlGck0ktno')
 
 
 @bot.message_handler(commands=['start'])
