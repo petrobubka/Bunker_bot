@@ -9,7 +9,7 @@ import histories
 
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot('1473850435:AAEOSlGS0fsyn2fzCtlEOGh3mvlGck0ktno')
+bot = Bot('')
 
 
 storage = MemoryStorage()
